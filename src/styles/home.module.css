@@ -8,54 +8,66 @@
 .home {
     position: relative;
     width: 100%;
-    height: 673px;
+    height: 100vh;
+    overflow: hidden;
     object-fit: cover;
     background: url("../images/homeBg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    object-fit: cover;
 }
 
 .home .frostbite {
     position: absolute;
     width: 100%;
-    height: 673px;
+    height: 100vh;
     object-fit: cover;
     background: url("../images/frostbite.png");
-    background-position: right;
     background-repeat: no-repeat;
+    top: 41%;
+    left: 72%;
+    transform: translate(-50%, -50%);
     animation: riseupFrostbite 1.4s;
 }
 
 .home .homeTitle {
     position: absolute;
     color: #ffffff;
-    font-size: 82px;
+    font-size: 5rem;
     font-weight: bold;
     margin: 0;
-    transform: translate(56px, 160px);
+    top: 26%;
+    left: 20%;
+    transform: translate(-50%, -50%);
     animation: smoothAppear 2s;
 }
 
 .home .homeText {
     position: absolute;
     color: #c8c8c8;
-    font-size: 24px;
-    transform: translate(56px, 301px);
+    font-size: 1.5rem;
+    top: 38%;
+    left: 21.5%;
+    transform: translate(-50%, -50%);
     animation: riseupText 1.6s;
 }
 
 .home .army {
     position: absolute;
-    transform: translate(820px, 364px);
+    top: 68%;
+    left: 59.4%;
+    transform: translate(-50%, -50%);
     animation: riseupArmy 1.5s;
 }
 
-.home .tank {
+.home .tank { 
     position: absolute;
-    width: 400px;
-    height: 280px;
-    transform: translate(940px, 390px);
+    width: 28vw;
+    height: 38vh;
+    top: 72%;
+    left: 74%;
+    transform: translate(-50%, -50%);
     animation: riseupTank 1.6s;
 }
 
@@ -72,44 +84,57 @@
 @keyframes riseupText {
     from {
         opacity: 0;
-        transform: translate(56px, 1000px);
+        top: 200%;
+        left: 21.5%;
+        transform: translate(-50%, -50%);
     }
 
     to {
         opacity: 1;
-        transform: translate(56px, 301px);
+        top: 38%;
+        left: 21.5%;
+        transform: translate(-50%, -50%);
     }
 }
 
 @keyframes riseupFrostbite {
     from {
-        transform: translateY(1000px);
+        top: 200%;
+        left: 72%;
+        transform: translate(-50%, -50%);
     }
 
     to {
-        transform: translateY(0);
+        top: 41%;
+        left: 72%;
+        transform: translate(-50%, -50%);
     }
 }
 
 @keyframes riseupArmy {
     from {
-        transform: translate(820px, 1000px);
+        top: 200%;
+        left: 59.4%;
+        transform: translate(-50%, -50%);
     }
 
     to {
-        transform: translate(820px, 364px);
+        top: 68%;
+        left: 59.4%;
+        transform: translate(-50%, -50%);
     }
 }
 
 @keyframes riseupTank {
     from {
-        transform: translate(940px, 1000px);
+        top: 200%;
+        left: 74%;
+        transform: translate(-50%, -50%);
     }
 
     to {
-        transform: translate(940px, 390px);
+        top: 72%;
+        left: 74%;
+        transform: translate(-50%, -50%);
     }
 }
-
-
-
