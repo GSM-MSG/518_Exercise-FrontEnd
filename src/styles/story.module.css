@@ -1,3 +1,4 @@
+
 /* component */
 .explainProps {
 }
@@ -7,7 +8,7 @@
 }
 
 .explainProps div:first-child {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .explainProps div:last-child {
@@ -15,9 +16,19 @@
   font-size: 18px;
 }
 
+.SubExplain {
+  font-size: 15px;
+  color: #8f8f8f;
+}
+
 /* page */
-.storyDivOut {
+.storyDiv {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background-color: #282828;
+  margin: auto;
 }
 
 .storyBox {
@@ -27,7 +38,6 @@
 .vector {
   margin-top: 0;
   z-index: 1;
-  margin-left: 5%;
   position: absolute;
 }
 
@@ -36,12 +46,8 @@
   display: flex;
 }
 
-.storyDiv {
+.storyBg img {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  transform: translate(148px, 0);
 }
 
 .storyDiv h1 {
@@ -49,111 +55,38 @@
   font-size: 64px;
 }
 
+.storyContainer {
+  margin-left: 147.51px;
+}
+
+.propsInput {
+  display: flex;
+}
+
 .description1 {
-  margin-top: 40px;
+  margin-top: 45px;
+  
 }
 
-.imageBox {
-  margin-top: 28px;
+.explainInner {
+  margin-top: 48px;
 }
 
-.imageBox img:first-child {
-  margin-right: 12px;
+.gunInput {
+  margin-top: 90px;
 }
 
 .description2 {
-  margin-top: 173px;
+  margin-top: 130px;
+  
+}
+
+.imgBox {
   display: flex;
 }
 
-.description2 img {
-  margin-left: 75px;
-}
-
-.description3 {
-  margin-top: 12px;
-}
-
-.description3 img {
-  margin-top: 50px;
-}
-
-.description4 {
-  margin-top: 184px;
-  margin-bottom: 200px;
-}
-
-.blood1 {
-  position: absolute;
-  margin-top: 100px;
-  width: 138px;
-}
-
-.blood2 {
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 980px;
-}
-
-.Description5 {
-  margin-top: 40px;
-  margin-bottom: 38px;
-}
-
-.imageBoxNav {
-  width: 100%;
-  background-color: #282828;
-}
-
-.image7 {
-  width: 49.58%;
-}
-
-.image8 {
-  width: 50.42%;
-}
-
-.description6 {
-  margin-top: 80px;
-  margin-bottom: 28px;
-}
-
-.image9 {
-  margin-bottom: 100px;
-}
-
-.blood3 {
-  width: 131px;
-  margin-top: 48px;
-  position: absolute;
-}
-
-.blood4 {
-  width: 141px;
-  position: absolute;
-  margin-left: 319px;
-  margin-top: 92px;
-}
-
-.description7 {
-  margin-top: 82px;
-}
-
-.imageBox2 {
-  margin-top: 28px;
-  display: flex;
-  margin-bottom: 80px;
-}
-
-.imageBox2 img {
-  margin: 8px;
-}
-
-.imageInner {
-  display: flex;
-  flex-direction: column;
-}
-
-.description8 {
-  margin-top: 80px;
+.imgBox img:first-child {
+  filter : grayscale(1);
+  margin-right: 16px;
+  margin-top: 32px;
 }
