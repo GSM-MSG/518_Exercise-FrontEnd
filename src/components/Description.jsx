@@ -8,15 +8,15 @@ function Description(props) {
       }}
       className={styles.explainProps}
     >
-      <nav>
+      <div>
         {props.title1} <br />
         {props.title2}
-      </nav>
-      <nav style={{color: `${props.color2}`}}>
+      </div>
+      <div style={{color: `${props.color2}`}}>
         {props.explain1} <br />
         {props.explain2} <br />
         {props.explain3}
-      </nav>
+      </div>
     </div>
   );
 }

@@ -1,27 +1,25 @@
-@font-face {
-  font-family: 'DX';
-  src: url('../font/DXTypeB-KSCpc-EUC-H.ttf') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 /* component */
 .explainProps {
-  transform: translate(148px, 0px);
 }
+
 .explainProps title {
   font-family: 'DX';
 }
-.explainProps nav:first-child {
+
+.explainProps div:first-child {
   font-size: 28px;
-  margin-bottom: 32px;
 }
-.explainProps nav:last-child {
+
+.explainProps div:last-child {
+  margin-top: 32px;
   font-size: 18px;
 }
 
 /* page */
+.storyDivOut {
+  background-color: #282828;
+}
+
 .storyBox {
   width: 100%;
 }
@@ -42,15 +40,120 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #282828;
+  height: 100%;
+  transform: translate(148px, 0);
 }
 
 .storyDiv h1 {
   color: #fff;
   font-size: 64px;
-  transform: translate(148px, 0);
 }
 
-.discription1 {
-  transform: translate(148px, 0);
+.description1 {
+  margin-top: 40px;
+}
+
+.imageBox {
+  margin-top: 28px;
+}
+
+.imageBox img:first-child {
+  margin-right: 12px;
+}
+
+.description2 {
+  margin-top: 173px;
+  display: flex;
+}
+
+.description2 img {
+  margin-left: 75px;
+}
+
+.description3 {
+  margin-top: 12px;
+}
+
+.description3 img {
+  margin-top: 50px;
+}
+
+.description4 {
+  margin-top: 184px;
+  margin-bottom: 200px;
+}
+
+.blood1 {
+  position: absolute;
+  margin-top: 100px;
+  width: 138px;
+}
+
+.blood2 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 980px;
+}
+
+.Description5 {
+  margin-top: 40px;
+  margin-bottom: 38px;
+}
+
+.imageBoxNav {
+  width: 100%;
+  background-color: #282828;
+}
+
+.image7 {
+  width: 49.58%;
+}
+
+.image8 {
+  width: 50.42%;
+}
+
+.description6 {
+  margin-top: 80px;
+  margin-bottom: 28px;
+}
+
+.image9 {
+  margin-bottom: 100px;
+}
+
+.blood3 {
+  width: 131px;
+  margin-top: 48px;
+  position: absolute;
+}
+
+.blood4 {
+  width: 141px;
+  position: absolute;
+  margin-left: 319px;
+  margin-top: 92px;
+}
+
+.description7 {
+  margin-top: 82px;
+}
+
+.imageBox2 {
+  margin-top: 28px;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.imageBox2 img {
+  margin: 8px;
+}
+
+.imageInner {
+  display: flex;
+  flex-direction: column;
+}
+
+.description8 {
+  margin-top: 80px;
 }
