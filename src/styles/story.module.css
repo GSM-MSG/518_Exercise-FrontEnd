@@ -1,6 +1,11 @@
+body {
+  background-color: #1f1f1f;
+}
 
 /* component */
-.explainProps {
+.display-enter {
+  white-space: pre-line;
+  white-space: pre-wrap;
 }
 
 .explainProps title {
@@ -22,12 +27,17 @@
 }
 
 /* page */
+.b {
+  font-size: 15px;
+  color: #8f8f8f;
+}
+
 .storyDiv {
   width: 1200px;
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #282828;
+  background-color: #1f1f1f;
   margin: auto;
 }
 
@@ -36,6 +46,7 @@
 }
 
 .vector {
+  margin-left: 58px;
   margin-top: 0;
   z-index: 1;
   position: absolute;
@@ -50,13 +61,9 @@
   width: 100%;
 }
 
-.storyDiv h1 {
-  color: #fff;
-  font-size: 64px;
-}
-
 .storyContainer {
-  margin-left: 147.51px;
+  margin-top: 50px;
+  margin-left: 148px;
 }
 
 .propsInput {
@@ -64,8 +71,7 @@
 }
 
 .description1 {
-  margin-top: 45px;
-  
+  margin-top: 90px;
 }
 
 .explainInner {
@@ -77,8 +83,7 @@
 }
 
 .description2 {
-  margin-top: 130px;
-  
+  margin-top: 168px;
 }
 
 .imgBox {
@@ -86,7 +91,57 @@
 }
 
 .imgBox img:first-child {
-  filter : grayscale(1);
-  margin-right: 16px;
+  filter: grayscale(1);
+  margin-right: 8px;
   margin-top: 32px;
+}
+
+.imgBox img:last-child {
+  margin-top: 33px;
+  height: 471px;
+}
+
+.description3 {
+  margin-top: 160px;
+  background-image: url(../images/seoul_bg.png);
+  height: 762.64px;
+}
+
+.description4 {
+  margin-top: 90px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.runPerson {
+  margin-top: 148px;
+  position: absolute;
+  z-index: 1;
+}
+
+.korea {
+  margin-left: 48px;
+}
+
+.description5Out {
+  background-color: #282828;
+}
+
+.description5 {
+  margin-top: 125px;
+}
+
+.description6 {
+  margin-top: 57px;
+}
+
+.blood1 {
+  margin-top: -100px;
+  position: absolute;
+  margin-left: 20px;
+}
+.blood2 {
+  position: absolute;
+  margin-left: 850px;
+  margin-top: -160px;
 }
