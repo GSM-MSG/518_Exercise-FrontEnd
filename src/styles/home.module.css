@@ -1,11 +1,18 @@
 @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+    font-family: "googleGravitasOne";
+    src: url(../assets/fonts/Gravitas_One/GravitasOne-Regular.ttf);
+}
+
+:root {
+    --font-googleGravitasOne: "googleGravitasOne";
 }
 
 .home {
+    width: 100%;
+    height: 100vh;
+}
+
+.home1 {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -18,60 +25,447 @@
     object-fit: cover;
 }
 
-.home .frostbite {
+.home .home1 .repeatText {
     position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-googleGravitasOne);
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    background: url("../images/frostbite.png");
-    background-repeat: no-repeat;
-    top: 41%;
-    left: 72%;
-    transform: translate(-50%, -50%);
-    animation: riseupFrostbite 1.4s;
-}
-
-.home .homeTitle {
-    position: absolute;
     color: #ffffff;
-    font-size: 5rem;
-    font-weight: bold;
+    animation: showLeft 1s;
+}
+
+.home .home1 .homeTitle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: showTitle 1s;
+}
+
+.home .home1 .homeTitle2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: showTitle 1s;
+}
+
+.home .home1 .remembranceText {
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 7vh;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home .home1 .remembranceText .inRemembrance {
+    width: 20vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: widthIncrease 1s;
+}
+
+.home .home1 .remembranceText .inRemembranceText {
+    color: #ffffff;
     margin: 0;
-    top: 26%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    animation: smoothAppear 2s;
 }
 
-.home .homeText {
-    position: absolute;
-    color: #c8c8c8;
-    font-size: 1.5rem;
-    top: 38%;
-    left: 21.5%;
-    transform: translate(-50%, -50%);
-    animation: riseupText 1.6s;
+.home .home1 .remembranceText .inRemembrance .whiteBox1 {
+    width: 3vw;
+    height: 2vh;
+    background-color: #ffffff;
 }
 
-.home .army {
-    position: absolute;
-    top: 68%;
-    left: 59.4%;
-    transform: translate(-50%, -50%);
-    animation: riseupArmy 1.5s;
+.home .home1 .remembranceText .whiteBox2 {
+    width: 2.6vw;
+    height: 7vh;
+    background-color: #ffffff;
 }
 
-.home .tank { 
+.home .home1 .repeatText2 {
     position: absolute;
-    width: 28vw;
-    height: 38vh;
-    top: 72%;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-googleGravitasOne);
+    width: 100%;
+    color: #ffffff;
+    z-index: 3;
+    animation: showRight 1s;
+}
+
+.home .home1 .home1FootBg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30vh;
+    background: url("../images/homeBg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .home2 {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: #ffffff;
+}
+
+.home .home2 .pine1 {
+    position: absolute;
+    left: 0;
+    top: -8%
+}
+
+.home .home2 .line1 {
+    position: absolute;
+    top: 36%;
+    right: 0;
+    width: 36%;
+    border: 1px solid #000000;
+    margin: 0;
+}
+
+.home .home2 .line1Text {
+    position: absolute;
+    top: 39%;
     left: 74%;
     transform: translate(-50%, -50%);
-    animation: riseupTank 1.6s;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-@keyframes smoothAppear {
+.home .home2 .pine2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.home .home2 .line2 {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 32%;
+    border: 1px solid #000000;
+    margin: 0;
+}
+
+.home .home2 .line2Text {
+    position: absolute;
+    top: 58%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.home .home2 .tank {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home .home2 .year {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-family: var(--font-googleGravitasOne);
+}
+
+.home .home2 .home2Title {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home .home2 .toStoryBtn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12vw;
+    height: 7vh;
+    background: none;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+}
+
+.home .home2 .toStoryBtn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.home .home2ImgContainer {
+    position: relative;
+    width: 100%;
+    height: 170vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .home2ImgContainer .home2Imgs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.home .home2ImgContainer .line1 {
+    position: absolute;
+    top: 66%;
+    left: -3%;
+    border: 1px solid #bcbcbc;
+    transform: rotate(90deg);
+    width: 13%;
+}
+
+.home .home2ImgContainer .line2 {
+    position: absolute;
+    top: 70%;
+    right: 3%;
+    border: 1px solid #bcbcbc;
+    transform: rotate(90deg);
+    width: 6%;
+}
+
+
+.home .home3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/homeBg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .home3 .martyrs {
+    font-size: 2.4rem;
+    color: #000000;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    margin: 0;
+}
+
+.home .home3 .martyrs::before {
+    content: "";
+    flex-grow: 1;
+    height: 2px;
+    margin: 0 10px;
+    background: #000000;
+
+}
+
+.home .home3 .martyrs::after {
+    content: "";
+    margin: 0 10px;
+    background: #000000;
+    flex-grow: 1;
+    height: 2px;
+}
+
+.home .home3 .pine3 {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    z-index: 3;
+}
+
+.home .home3 .phrase {
+    position: absolute;
+    top: 16%;
+    left: 19.4%;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+}
+
+.home .home3 .pharseEn {
+    position: absolute;
+    top: 22%;
+    left: 22.6%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 0.8rem;
+    color: #808080;
+}
+
+.home .home3 .narration {
+    position: absolute;
+    top: 26%;
+    left: 15.4%;
+    font-size: 0.8rem;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    color: #808080;
+}
+
+.home .home3 .home3Title {
+    position: absolute;
+    top: 34%;
+    left: 0;
+    width: 100%;
+}
+
+.home .home3 .martyrsImg {
+    position: absolute;
+    top: 54%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.home .home3 .line1 {
+    position: absolute;
+    left: 0;
+    top: 66%;
+    width: 13.8%;
+    border: 1px solid #bcbcbc;
+    margin: 0;
+}
+
+.home .home3 .line2 {
+    position: absolute;
+    left: 90%;
+    top: 65%;
+    transform: rotate(90deg);
+    width: 13%;
+    border: 1px solid #bcbcbc;
+    margin: 0;
+}
+
+.home .home3 .line3 {
+    position: absolute;
+    left: 93%;
+    top: 70%;
+    transform: rotate(90deg);
+    width: 6%;
+    border: 1px solid #bcbcbc;
+    margin: 0;
+}
+
+.home .home3 .year2 {
+    position: absolute;
+    top: 84%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-googleGravitasOne);
+
+}
+
+.home .home3 .year3 {
+    position: absolute;
+    top: 84%;
+    right: 6%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-googleGravitasOne);
+}
+
+.home .home3 .weed {
+    position: absolute;
+    top: 73%;
+    left: 0;
+}
+
+.home .home3 .repeatText3 {
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-googleGravitasOne);
+    width: 100%;
+}
+
+.home .homeFooter {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 30vh;
+    background-color: #3d3d3d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.home .homeFooter .contactList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a4a4a4;
+    padding: 0;
+}
+
+.home .homeFooter .contactList li {
+    margin-top: 10px;
+}
+
+.home .homeFooter .contactList li:first-child {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@keyframes showLeft {
+    from {
+        position: absolute;
+        top: 10%;
+        left: 200%;
+        transform: translate(-50%, -50%);
+    }
+
+    to {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes showRight {
+    from {
+        position: absolute;
+        top: 86%;
+        left: -200%;
+        transform: translate(-50%, -50%);
+    }
+
+    to {
+        position: absolute;
+        top: 86%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes showTitle {
     from {
         opacity: 0;
     }
@@ -81,60 +475,14 @@
     }
 }
 
-@keyframes riseupText {
+@keyframes widthIncrease {
     from {
+        width: 0;
         opacity: 0;
-        top: 200%;
-        left: 21.5%;
-        transform: translate(-50%, -50%);
     }
 
     to {
+        width: 20vw;
         opacity: 1;
-        top: 38%;
-        left: 21.5%;
-        transform: translate(-50%, -50%);
-    }
-}
-
-@keyframes riseupFrostbite {
-    from {
-        top: 200%;
-        left: 72%;
-        transform: translate(-50%, -50%);
-    }
-
-    to {
-        top: 41%;
-        left: 72%;
-        transform: translate(-50%, -50%);
-    }
-}
-
-@keyframes riseupArmy {
-    from {
-        top: 200%;
-        left: 59.4%;
-        transform: translate(-50%, -50%);
-    }
-
-    to {
-        top: 68%;
-        left: 59.4%;
-        transform: translate(-50%, -50%);
-    }
-}
-
-@keyframes riseupTank {
-    from {
-        top: 200%;
-        left: 74%;
-        transform: translate(-50%, -50%);
-    }
-
-    to {
-        top: 72%;
-        left: 74%;
-        transform: translate(-50%, -50%);
     }
 }
