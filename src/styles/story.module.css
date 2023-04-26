@@ -54,7 +54,8 @@ body {
 
 .storyBg {
   width: 100%;
-  display: flex;
+  max-width: 100%;
+  height: auto;
 }
 
 .storyBg img {
@@ -125,6 +126,7 @@ body {
 
 .description5Out {
   background-color: #282828;
+  padding-bottom: 80px;
 }
 
 .description5 {
@@ -140,8 +142,188 @@ body {
   position: absolute;
   margin-left: 20px;
 }
+
 .blood2 {
   position: absolute;
   margin-left: 850px;
   margin-top: -160px;
+}
+
+.description7Out {
+  padding-bottom: 80px;
+  background-image: url(../images/bus_bg.png);
+  background-repeat: no-repeat;
+  background-color: #303030;
+}
+
+.description7 {
+  margin-top: 85px;
+  margin-bottom: 32px;
+}
+
+.blood3 {
+  position: absolute;
+  margin-top: 46px;
+  margin-left: 17px;
+}
+
+.blood4 {
+  margin-top: 80px;
+  margin-left: 500px;
+}
+
+.description8Out {
+  background-color: #fff;
+}
+
+.description8 {
+  margin-top: -145px;
+}
+
+.imgBox3 {
+  background-image: url(../images/person_bg.png);
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 168px;
+}
+
+.imgBox3Inner {
+  display: flex;
+  font-size: 18px;
+  color: #1f1f1f;
+}
+
+.img13Box {
+  margin-right: 108px;
+  width: 352px;
+}
+
+.imgPersonArmy {
+  margin-top: 16px;
+}
+
+.description9Out {
+  background-color: #eaeaea;
+}
+
+.description9 {
+  margin-top: 110px;
+}
+
+.pinetree1 {
+  position: absolute;
+}
+
+.imgBox4 {
+  color: #797979;
+  font-size: 16px;
+  margin-top: 78px;
+  display: flex;
+}
+
+.img15 {
+  margin-right: -95px;
+}
+
+.imgBox5 {
+  margin-top: 64px;
+  color: #797979;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 442px;
+  margin-bottom: 80px;
+}
+
+.pinetree2 {
+  position: absolute;
+  margin-left: 494px;
+  margin-top: 79px;
+}
+
+.description10 {
+  display: flex;
+  margin-top: 70px;
+}
+
+.img18 {
+  margin-top: -70px;
+  margin-left: 130px;
+}
+
+.helecopter {
+  width: 664px;
+  margin-top: 25px;
+}
+
+.fontBox {
+  position: absolute;
+  color: #fff;
+  margin-top: -300px;
+  font-size: 18px;
+}
+
+.fontBoxInner {
+  margin-top: 64px;
+  font-size: 24px;
+}
+
+.fontBoxInner2 {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #7e7e7e;
+}
+
+.fontBox2 {
+  margin-top: 104px;
+  color: #bebebe;
+  font-size: 18px;
+}
+
+.frostbite {
+  position: absolute;
+  margin-left: 435px;
+  margin-top: -355px;
+}
+
+.imgBox6 {
+  margin-top: 64px;
+}
+
+.lastMentBox {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 130px;
+}
+
+.lastMiddleComment {
+  display: flex;
+  font-size: 40px;
+  margin-top: 32px;
+}
+
+.lastComment {
+  margin-top: 48px;
+  font-size: 18px;
+}
+
+.lastButton {
+  margin-top: 64px;
+  margin-bottom: 146px;
+  padding: 12px 24px;
+  cursor: pointer;
+  background: none;
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid #fff;
+  transition: all 0.1s ease-in;
+}
+
+.lastButton:hover {
+  background-color: #fff;
+  color: #000;
 }
