@@ -1,6 +1,6 @@
 import styles from '../styles/story.module.css';
 
-function Description(props) {
+function TitleOnly (props) {
   return (
     <div
       style={{
@@ -12,13 +12,8 @@ function Description(props) {
         {props.title1} <br />
         {props.title2}
       </div>
-      <div className={styles.explainContainer} style={{color: `${props.color2}`}}>
-        {props.explain1} <br />
-        {props.explain2} <br />
-        {props.explain3} 
-      </div>
     </div>
   );
 }
 
-export default Description;
+export default TitleOnly;
