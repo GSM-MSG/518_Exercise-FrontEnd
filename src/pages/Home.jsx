@@ -21,7 +21,7 @@ function Home() {
         <Navbar />
         <img className={styles.homeTitle} src={thatDay} alt="그날의" />
         <img className={styles.homeTitle2} src={Gwangju} alt="광주" />
-        <p className={styles.repeatText}>5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의</p>
+        <p className={styles.repeatText}> - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - 5.18 열흘 간의 항쟁 - </p>
         <div className={styles.remembranceText}>
           <div className={styles.inRemembrance}>
             <div className={styles.whiteBox1}></div>
@@ -35,7 +35,7 @@ function Home() {
             <div className={styles.whiteBox1}></div>
           </div>
         </div>
-        <p className={styles.repeatText2}>/518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518</p>
+        <p className={styles.repeatText2}>//518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 //</p>
         <div className={styles.home1FootBg}></div>
       </div>
       <div className={styles.home2}>
@@ -82,7 +82,7 @@ function Home() {
         <h2 className={styles.year2}>1959.04.20</h2>
         <h2 className={styles.year3}>1980.05.30</h2>
         <img className={styles.weed} src={Weed} alt="식물" />
-        <p className={styles.repeatText3}>/518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518</p>
+        <p className={styles.repeatText3}>// 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 // 518 //</p>
       </div>
       <footer className={styles.homeFooter}>
         <ul className={styles.contactList}>
