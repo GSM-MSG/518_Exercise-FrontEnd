@@ -1,8 +1,9 @@
+
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Moment from "./pages/Moment";
 import Quiz from "./pages/Quiz";
+import Story from './pages/Story';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/quiz" element={<Quiz />}/>
         <Route path="/moment" element={<Moment />} />
+        <Route path="/story" element={<Story />} />
       </Routes>
     </div>
   );

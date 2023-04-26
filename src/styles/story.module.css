@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'DX';
+  src: url('../font/DXTypeB-KSCpc-EUC-H.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* component */
+.explainProps {
+  transform: translate(148px, 0px);
+}
+.explainProps title {
+  font-family: 'DX';
+}
+.explainProps nav:first-child {
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+.explainProps nav:last-child {
+  font-size: 18px;
+}
+
+/* page */
+.storyBox {
+  width: 100%;
+}
+
+.vector {
+  margin-top: 0;
+  z-index: 1;
+  margin-left: 5%;
+  position: absolute;
+}
+
+.storyBg {
+  width: 100%;
+  display: flex;
+}
+
+.storyDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #282828;
+}
+
+.storyDiv h1 {
+  color: #fff;
+  font-size: 64px;
+  transform: translate(148px, 0);
+}
+
+.discription1 {
+  transform: translate(148px, 0);
+}
