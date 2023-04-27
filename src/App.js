@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Moment from './pages/Moment';
 import Quiz from './pages/Quiz';
 import Story from './pages/Story';
+import NotFound from './pages/NotFound'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/moment" element={<Moment />} />
         <Route path="/story" element={<Story />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </div>
   );
