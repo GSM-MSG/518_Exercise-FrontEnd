@@ -14,6 +14,10 @@ import Martyrs from '../images/Martyrs.png';
 import home3Title from "../images/home3Title.png";
 import home2ImgBundle2 from "../images/home2ImgBundle2.png";
 
+function locationStory () {
+    window.location.href = "/story"
+}
+
 function Home() {
   return (
     <div className={styles.home}>
@@ -50,7 +54,7 @@ function Home() {
         <img className={styles.tank} src={Tank} alt="탱크" />
         <p className={styles.year}>1980.</p>
         <img src={home2Title} alt="날짜" className={styles.home2Title} />
-        <button className={styles.toStoryBtn}>전개과정 보러가기</button>
+        <button onClick={locationStory} className={styles.toStoryBtn}>전개과정 보러가기</button>
       </div>
       <div className={styles.home2ImgContainer}>
         <div className={styles.home2Imgs}>
