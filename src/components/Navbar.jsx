@@ -32,7 +32,9 @@ function Navbar() {
           <div className={styles.messageCircle}>
             <TbMessageCircle2Filled />
           </div>
-          <b className={styles.complain}>문의하기</b>
+          <Link to="/">
+            <b className={styles.complain}>문의하기</b>
+          </Link>
         </div>
       </div>
     </nav>

@@ -6,20 +6,20 @@ export default function Home () {
     const navigate = useNavigate();
 
     return (
-        <div className="page-container">
+        <div>
             <Navbar />
             <div style={{
                 marginTop: '64px',
                 fontSize: '48px',
                 fontWeight: 'bold',
                 marginBottom: '32px',
-                color: 'white'
+                color: '#000'
             }}>해당 페이지를 찾지 못했습니다.</div>
 
             <div style={{
                 fontSize: '32px',
                 lineHeight: '1.6',
-                color: 'white'
+                color: '#000'
             }}>주소가 잘못 되었거나 더 이상 제공되지 않는 페이지입니다.</div>
 
             
