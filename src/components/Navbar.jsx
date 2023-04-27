@@ -19,8 +19,12 @@ function Navbar() {
               <Link to="/story">
                 <li>전개과정</li>
               </Link>
-              <li>퀴즈</li>
-              <li>캐릭터 유형검사</li>
+              <Link to="/quiz">
+                <li>퀴즈</li>
+              </Link>
+              <Link to="/moment">
+                <li>캐릭터 유형검사</li>
+              </Link>
             </ul>
           </div>
         </div>

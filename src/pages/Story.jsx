@@ -41,6 +41,10 @@ import Img20 from '../images/image 20.png';
 import Img21 from '../images/image 21.png';
 import Img22 from '../images/image 22.png';
 
+function locationMoment () {
+  window.location.href = "/moment"
+}
+
 function Story() {
   return (
     <div className={styles.storyBox}>
@@ -388,7 +392,7 @@ function Story() {
                   있었습니다.
                 </span>
               </div>
-              <button className={styles.lastButton}>나는 그때 어떻게 행동했을까?</button>
+              <button onClick={locationMoment} className={styles.lastButton}>나는 그때 어떻게 행동했을까?</button>
             </div>
           </div>
         </div>
