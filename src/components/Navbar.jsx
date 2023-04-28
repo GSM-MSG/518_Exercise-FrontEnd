@@ -32,9 +32,9 @@ function Navbar() {
           <div className={styles.messageCircle}>
             <TbMessageCircle2Filled />
           </div>
-          <Link to="/">
+          <a href="https://open.kakao.com/o/sSYV7xhf">
             <b className={styles.complain}>문의하기</b>
-          </Link>
+          </a>
         </div>
       </div>
     </nav>
