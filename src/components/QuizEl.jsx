@@ -1,31 +1,29 @@
 import React from 'react';
-import { MdArrowBackIos } from 'react-icons/md';
+import { useRef } from 'react';
+import { useState } from 'react';
 import styles from "../styles/quiz.module.css";
+import Quiz1 from './quiz/Quiz1';
+import Quiz2 from './quiz/Quiz2';
+import Quiz3 from './quiz/Quiz3';
+import Quiz4 from './quiz/Quiz4';
+import Quiz5 from './quiz/Quiz5';
+import QuizEnd from './quiz/QuizEnd';
+import QuizStart from "./quiz/QuizStart";
 
-function QuizEl({id, question, page, setPage, btnText}) {
+function QuizEl({page, setPage}) {
 
-  const passPage = () => {
-    if(id === 6) {
-        setPage(page - 5);
-    } else {
-        setPage(page + 1);
-    }
-  }
-
+  const [count, setCount] = useState(0);
+  const score = useRef(0);
+  
   return (
     <div className={styles.quizBox}>
-      {id === 1 | id === 6  ? null : (
-        <MdArrowBackIos
-          onClick={() => setPage(page - 1)}
-          className={styles.backArrow}
-        />
-      )}
-
-      <p className={styles.question}>{question}</p>
-      
-        <button onClick={passPage} className={styles.nextBtn}>
-          {btnText}
-        </button>
+      {page === 1 && <QuizStart count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
+      {page === 2 && <Quiz1 count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
+      {page === 3 && <Quiz2 count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
+      {page === 4 && <Quiz3 count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
+      {page === 5 && <Quiz4 count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
+      {page === 6 && <Quiz5 count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
+      {page === 7 && <QuizEnd count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
     </div>
   );
 }

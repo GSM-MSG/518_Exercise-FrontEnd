@@ -15,6 +15,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #282828;
+    font-family: 'Pretendard-Regular';
 }
 
 .navbar .navInBox {
@@ -39,8 +41,9 @@ a {
 
 .navbar .title {
     color: #ffffff;
-    font-size: 12px;
+    font-size: 0.8rem;
     cursor: default;
+    font-weight: 100;
 }
 
 .navbar .menuList {
