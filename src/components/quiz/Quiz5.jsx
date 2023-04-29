@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styles from '../../styles/quiz.module.css';
 
-function Quiz5({page, setPage}) {
+function Quiz5({score, page, setPage}) {
   const [count, setCount] = useState(0);
   const [choice1, setChoice1] = useState(false);
   const [choice2, setChoice2] = useState(false);
@@ -21,6 +21,7 @@ function Quiz5({page, setPage}) {
       setChoice2(true);
       setChoice3(false);
       setChoice4(false);
+      score.current = score.current + 1;
     } else if (num === 3) {
       setCount(count + 1);
       setChoice1(false);
@@ -51,7 +52,7 @@ function Quiz5({page, setPage}) {
       {!choice1 && !choice2 && !choice3 && !choice4 && (
         <h2 className={styles.division}>5.객관식 문제</h2>
       )}
-      
+
       {choice2 && <h2 className={styles.divisionTrue}>5.객관식 문제</h2>}
       {(choice1 || choice3 || choice4) && (
         <h2 className={styles.divisionFalse}>5.객관식 문제</h2>

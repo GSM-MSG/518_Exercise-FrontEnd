@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../../styles/quiz.module.css';
 import {Link} from 'react-router-dom';
 
-function QuizEnd({setPage}) {
+function QuizEnd({score, setPage}) {
   const onFirst = () => {
     setPage(1);
   };
@@ -10,7 +10,7 @@ function QuizEnd({setPage}) {
   return (
     <div className={styles.endContainer}>
       <h2 className={styles.celebration}>
-        총 5문제를 맞추셨어요.
+        총 {score.current}문제를 맞추셨어요.
         <br />
         축하드려요!🎉
       </h2>

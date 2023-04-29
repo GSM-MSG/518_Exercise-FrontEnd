@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import styles from '../../styles/quiz.module.css';
 
-function Quiz4({page, setPage}) {
+function Quiz4({score, page, setPage}) {
   const [count, setCount] = useState(0);
   const [choice1, setChoice1] = useState(false);
   const [choice2, setChoice2] = useState(false);
@@ -27,6 +27,7 @@ function Quiz4({page, setPage}) {
       setChoice2(false);
       setChoice3(true);
       setChoice4(false);
+      score.current = score.current + 1;
     } else if (num === 4) {
       setCount(count + 1);
       setChoice1(false);
@@ -36,17 +37,11 @@ function Quiz4({page, setPage}) {
     }
   };
 
-  
-
   const onNext = () => {
     if (count >= 1) {
       setPage(page + 1);
     }
   };
-
-  if(choice3){
-  console.log(choice3);
-}
 
   return (
     <div className={styles.quizContainer}>

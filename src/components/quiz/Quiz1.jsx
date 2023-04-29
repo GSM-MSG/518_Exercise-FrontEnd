@@ -15,7 +15,7 @@ function Quiz1({score, page, setPage}) {
       setWranswer(false);
       setCount(count + 1);
       if (count === 1) {
-        score = score.current + 1;
+        score.current = score.current + 1;
         setPage(page + 1);
       }
     } else {

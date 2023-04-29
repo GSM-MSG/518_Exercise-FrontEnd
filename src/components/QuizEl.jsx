@@ -12,18 +12,17 @@ import QuizStart from "./quiz/QuizStart";
 
 function QuizEl({page, setPage}) {
 
-  const [count, setCount] = useState(0);
   const score = useRef(0);
   
   return (
     <div className={styles.quizBox}>
-      {page === 1 && <QuizStart count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
-      {page === 2 && <Quiz1 count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
-      {page === 3 && <Quiz2 count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
-      {page === 4 && <Quiz3 count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
-      {page === 5 && <Quiz4 count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
-      {page === 6 && <Quiz5 count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
-      {page === 7 && <QuizEnd count={count} setCount={setCount} page={page} setPage={setPage} score={score} />}
+      {page === 1 && <QuizStart page={page} setPage={setPage} score={score} />}
+      {page === 2 && <Quiz1 page={page} setPage={setPage} score={score} />}
+      {page === 3 && <Quiz2 page={page} setPage={setPage} score={score} />}
+      {page === 4 && <Quiz3 page={page} setPage={setPage} score={score} />}
+      {page === 5 && <Quiz4 page={page} setPage={setPage} score={score} />}
+      {page === 6 && <Quiz5 page={page} setPage={setPage} score={score} />}
+      {page === 7 && <QuizEnd setPage={setPage} score={score} />}
     </div>
   );
 }
