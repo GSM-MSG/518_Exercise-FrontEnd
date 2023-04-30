@@ -1,12 +1,13 @@
 import React, {useState} from 'react';
 import styles from '../../styles/quiz.module.css';
 
-function Quiz5({score, page, setPage}) {
+function Quiz5({page, setPage}) {
   const [count, setCount] = useState(0);
   const [choice1, setChoice1] = useState(false);
   const [choice2, setChoice2] = useState(false);
   const [choice3, setChoice3] = useState(false);
   const [choice4, setChoice4] = useState(false);
+  const score = Number(localStorage.getItem("score"));
 
   const onChoice = num => {
     if (num === 1) {

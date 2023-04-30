@@ -2,7 +2,7 @@ import React from 'react';
 import {useState} from 'react';
 import styles from '../../styles/quiz.module.css';
 
-function Quiz1({score, page, setPage}) {
+function Quiz1({page, setPage}) {
   const [value, setValue] = useState('');
   const [count, setCount] = useState(0);
   const [answer, setAnswer] = useState(false);

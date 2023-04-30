@@ -7,7 +7,7 @@ function QuizEnd({setPage}) {
     setPage(1);
   };
   const score = localStorage.getItem("score");
-
+  console.log(score);
   return (
     <div className={styles.endContainer}>
       <h2 className={styles.celebration}>

@@ -22,13 +22,6 @@ function Navbar() {
               <Link to="/quiz">
                 <li>퀴즈</li>
               </Link>
-<<<<<<< HEAD
-              <li>캐릭터 유형검사</li>
-=======
-              <Link to="/moment">
-                <li>캐릭터 유형검사</li>
-              </Link>
->>>>>>> 5b47a4600dccac9433f4b83f915672e0409c44fb
             </ul>
           </div>
         </div>

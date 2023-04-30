@@ -7,7 +7,7 @@ function Quiz4({page, setPage}) {
   const [choice2, setChoice2] = useState(false);
   const [choice3, setChoice3] = useState(false);
   const [choice4, setChoice4] = useState(false);
-  const score = localStorage.getItem("score");
+  const score = Number(localStorage.getItem("score"));
 
   const onChoice = num => {
     if (num === 1) {

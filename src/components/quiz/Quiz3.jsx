@@ -7,17 +7,24 @@ import blueO from '../../images/blueO.png';
 import faintO from '../../images/faintO.png';
 import faintX from '../../images/faintX.png';
 
-function Quiz3({score, page, setPage}) {
+function Quiz3({page, setPage}) {
   const [count, setCount] = useState(0);
   const [answer, setAnswer] = useState(false);
   const [wranswer, setWranswer] = useState(false);
+  const score = Number(localStorage.getItem("score"));
 
   const successClicked = () => {
     setAnswer(true);
     setWranswer(false);
     setCount(count + 1);
-    localStorage.setItem("score", 3);
-};
+    if(score === 0) {
+        localStorage.setItem("score", 1);
+      } else if(score === 1) {
+        localStorage.setItem("score", 2);
+      } else if(score === 2) {
+        localStorage.setItem("score", 3);
+      }
+    };
 
   const failClicked = () => {
     setWranswer(true);
