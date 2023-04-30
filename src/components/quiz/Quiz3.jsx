@@ -7,7 +7,7 @@ import blueO from '../../images/blueO.png';
 import faintO from '../../images/faintO.png';
 import faintX from '../../images/faintX.png';
 
-function Quiz3({page, setPage}) {
+function Quiz3({score, page, setPage}) {
   const [count, setCount] = useState(0);
   const [answer, setAnswer] = useState(false);
   const [wranswer, setWranswer] = useState(false);
@@ -16,7 +16,8 @@ function Quiz3({page, setPage}) {
     setAnswer(true);
     setWranswer(false);
     setCount(count + 1);
-  };
+    localStorage.setItem("score", 3);
+};
 
   const failClicked = () => {
     setWranswer(true);

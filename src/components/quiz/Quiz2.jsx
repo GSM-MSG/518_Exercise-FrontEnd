@@ -3,8 +3,6 @@ import styles from '../../styles/quiz.module.css';
 import O from '../../images/O.png';
 import X from '../../images/X.png';
 import redO from '../../images/redO.png';
-import blueO from '../../images/blueO.png';
-import redX from '../../images/redX.png';
 import blueX from '../../images/blueX.png';
 import faintO from '../../images/faintO.png';
 import faintX from '../../images/faintX.png';
@@ -18,6 +16,7 @@ function Quiz2({score, page, setPage}) {
     setAnswer(true);
     setWranswer(false);
     setCount(count + 1);
+    localStorage.setItem("score", 2);
   };
 
   const failClicked = () => {

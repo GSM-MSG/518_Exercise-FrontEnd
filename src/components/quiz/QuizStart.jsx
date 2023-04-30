@@ -6,8 +6,9 @@ function QuizStart({page, setPage}) {
 
   const onNext = () => {
     setPage(page + 1);
+    localStorage.setItem("score", 0);
   };
-  
+
   return (
     <div className={styles.startContainer}>
       <div className={styles.startTexts}>

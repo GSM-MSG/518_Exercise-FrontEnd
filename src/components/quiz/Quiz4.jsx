@@ -1,12 +1,13 @@
 import React, {useState} from 'react';
 import styles from '../../styles/quiz.module.css';
 
-function Quiz4({score, page, setPage}) {
+function Quiz4({page, setPage}) {
   const [count, setCount] = useState(0);
   const [choice1, setChoice1] = useState(false);
   const [choice2, setChoice2] = useState(false);
   const [choice3, setChoice3] = useState(false);
   const [choice4, setChoice4] = useState(false);
+  const score = localStorage.getItem("score");
 
   const onChoice = num => {
     if (num === 1) {
@@ -27,7 +28,15 @@ function Quiz4({score, page, setPage}) {
       setChoice2(false);
       setChoice3(true);
       setChoice4(false);
-      score.current = score.current + 1;
+      if(score === 0) {
+        localStorage.setItem("score", 1);
+      } else if(score === 1) {
+        localStorage.setItem("score", 2);
+      } else if(score === 2) {
+        localStorage.setItem("score", 3);
+      } else if(score === 3) {
+        localStorage.setItem("score", 4);
+      }
     } else if (num === 4) {
       setCount(count + 1);
       setChoice1(false);

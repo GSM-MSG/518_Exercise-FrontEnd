@@ -21,7 +21,17 @@ function Quiz5({score, page, setPage}) {
       setChoice2(true);
       setChoice3(false);
       setChoice4(false);
-      score.current = score.current + 1;
+      if(score === 0) {
+        localStorage.setItem("score", 1);
+      } else if(score === 1) {
+        localStorage.setItem("score", 2);
+      } else if(score === 2) {
+        localStorage.setItem("score", 3);
+      } else if(score === 3) {
+        localStorage.setItem("score", 4);
+      } else if(score === 4) {
+        localStorage.setItem("score", 5);
+      }
     } else if (num === 3) {
       setCount(count + 1);
       setChoice1(false);

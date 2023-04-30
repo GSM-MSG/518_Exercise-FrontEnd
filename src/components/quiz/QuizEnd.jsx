@@ -2,15 +2,16 @@ import React from 'react';
 import styles from '../../styles/quiz.module.css';
 import {Link} from 'react-router-dom';
 
-function QuizEnd({score, setPage}) {
+function QuizEnd({setPage}) {
   const onFirst = () => {
     setPage(1);
   };
+  const score = localStorage.getItem("score");
 
   return (
     <div className={styles.endContainer}>
       <h2 className={styles.celebration}>
-        총 {score.current}문제를 맞추셨어요.
+        총 {score}문제를 맞추셨어요.
         <br />
         축하드려요!🎉
       </h2>
@@ -19,7 +20,7 @@ function QuizEnd({score, setPage}) {
           다시 풀기
         </button>
         <Link to="/">
-          <button className={styles.homeBtn}>홈으로</button>
+          <button onClick={()=>localStorage.setItem("score", 0)} className={styles.homeBtn}>홈으로</button>
         </Link>
       </div>
     </div>
