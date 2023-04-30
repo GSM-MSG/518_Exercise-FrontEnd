@@ -1,7 +1,3 @@
-body {
-  background-color: #1f1f1f;
-}
-
 /* component */
 .display-enter {
   white-space: pre-line;
@@ -42,6 +38,7 @@ body {
 }
 
 .storyBox {
+  background-color: #1f1f1f;
   width: 100%;
 }
 
@@ -243,11 +240,11 @@ body {
 
 .description10 {
   display: flex;
-  margin-top: 70px;
+  margin-top: 115px;
 }
 
 .img18 {
-  margin-top: -70px;
+  margin-top: -110px;
   margin-left: 130px;
 }
 

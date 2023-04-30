@@ -41,6 +41,12 @@ import Img20 from '../images/image 20.png';
 import Img21 from '../images/image 21.png';
 import Img22 from '../images/image 22.png';
 
+import {motion} from 'framer-motion';
+
+function locationMoment() {
+  window.location.href = '/moment';
+}
+
 function Story() {
   return (
     <div className={styles.storyBox}>
@@ -65,9 +71,9 @@ function Story() {
                     color2="#BCBCBC"
                     title1="1979.10.26"
                     title2="'10.26 사태'"
-                    message="박정희 대통령이 중앙정보부장 김재규의 총에 맞아 사망함으로써 *유신 체제가 막을 내리게 되었다. 이에 국"
-                    explain1="무총리 최규하는 제주도를 제외한 전국에 비상 *계엄령을 선포하였다. 국민들 사이에서는 유신 체제가 끝나"
-                    explain2="고 민주 사회가 올 것이라는 기대가 커지며 민주화에 대한 요구가 확산되었다."
+                    explain1="박정희 대통령이 중앙정보부장 김재규의 총에 맞아 사망함으로써 *유신 체제가 막을 내리게 되었다. 이에 국"
+                    explain2="무총리 최규하는 제주도를 제외한 전국에 비상 *계엄령을 선포하였다. 국민들 사이에서는 유신 체제가 끝나"
+                    explain3="고 민주 사회가 올 것이라는 기대가 커지며 민주화에 대한 요구가 확산되었다."
                   />
                   <div className={styles.explainInner}>
                     <SubExplain
@@ -91,8 +97,8 @@ function Story() {
                   color2="#c8c8c8"
                   title1="1979.12.12"
                   title2="군사정변"
-                  explain1="1979년 12월 12일 전두환, 노태우 등이 이끌던 군부 내 사조직 ‘하나회’ 중"
-                  explain2="심의 신군부 세력이 군사반란을 일으켜 군사권을 장악하였다."
+                  explain1="1979년 12월 12일 전두환, 노태우 등이 이끌던 군부 내 사조직 ‘하나회’"
+                  explain2="중심의 신군부 세력이 군사반란을 일으켜 군사권을 장악하였다."
                 />
               </div>
               <div className={styles.imgBox}>
@@ -108,8 +114,8 @@ function Story() {
                 color2="#c8c8c8"
                 title1="1980년"
                 title2="서울의 봄."
-                explain1="신군부가 계엄령을 계속 유지하고 정치 개입을 본격화하자, 학생과 민주화 인사들은 신군부 퇴진, 계엄령 철폐 등을 요구하며 1980년 5월까"
-                explain2="지 지속적으로 민주화 운동을 펼쳤다. "
+                explain1="신군부가 계엄령을 계속 유지하고 정치 개입을 본격화하자, 학생과 민주화 인사들은 신군부 퇴진, 계엄령 철폐 등을 요구하며 1980년 "
+                explain2="5월까지 지속적으로 민주화 운동을 펼쳤다. "
               />
               <br />
               <SubDescription
@@ -129,11 +135,11 @@ function Story() {
                   title2="계엄령 확대"
                   explain1="신군부 퇴진을 요구하는 민주화 운동이 지속되자, 신군부는 비상계엄을 "
                   explain2="1980년 5월 18일 0시를 기점으로 전국으로 확대하겠다고 발표하였다. 모든 "
-                  explain3="정치 활동을 금지하고, 국회와 대학을 폐쇄하였으며, 민주화 운동 세력과 신"
+                  explain3="정치 활동을 금지하고, 국회와 대학을 폐쇄하였으며, 민주화 운동 세력과 "
                 />
                 <SubDescription
                   color="#c8c8c8"
-                  explain1="군부에 반대하는 사람들을 체포하였다."
+                  explain1="신군부에 반대하는 사람들을 체포하였다."
                 />
               </div>
               <div className={styles.runPerson}>
@@ -218,8 +224,8 @@ function Story() {
                   color2="#c8c8c8"
                   title1="1980.05.20"
                   title2="거세지는 시위"
-                  explain1="항쟁 셋째 날인 5월 20일, 광주 시민과 학생들이 계엄군의 무자비한 진압에 항의하고자 금남로"
-                  explain2="에 모였다. 택시, 버스, 트럭 등 수백 대의 차량 시위대가 대규모 민주 항쟁을 이어 나갔다."
+                  explain1="항쟁 셋째 날인 5월 20일, 광주 시민과 학생들이 계엄군의 무자비한 진압에 항의하고자 "
+                  explain2="금남로에 모였다. 택시, 버스, 트럭 등 수백 대의 차량 시위대가 대규모 민주 항쟁을 이어 나갔다."
                 />
               </div>
               <img src={Img12} alt="image12" />
@@ -240,8 +246,8 @@ function Story() {
                   title1="1980.05.21"
                   title2="계엄군의 집단 발포와 시민군 창설"
                   explain1="계엄군이 시위 진압 과정에서 시위대를 향해 총격을 가했다. 애국가 소리와 함께 시작된 조준 사격으로 최소 54명이 사망했다. "
-                  explain2="이에 분노한 시민들은 경찰서, 예비군 무기고 등에서 획득한 무기로 무장하고 시민군을 조직하였다. 계엄군은 언론을 통제하여 광주 시민을 폭도"
-                  explain3="로 몰아가는 한편, 광주 외곽을 봉쇄하고 시내로의 진입과 통신을 차단하였다."
+                  explain2="이에 분노한 시민들은 경찰서, 예비군 무기고 등에서 획득한 무기로 무장하고 시민군을 조직하였다. 계엄군은 언론을 통제하여 광주 시민을 "
+                  explain3="폭도로 몰아가는 한편, 광주 외곽을 봉쇄하고 시내로의 진입과 통신을 차단하였다."
                 />
               </div>
             </div>
@@ -326,15 +332,14 @@ function Story() {
               <div className={styles.fontBox}>
                 <span>27일 새벽, '상무충정작전'을 실시.</span>
                 <div className={styles.fontBoxInner}>
-                  사랑하는 광주 시민 여러분,지금 계엄군이 쳐들어 오고 있습니
+                  "사랑하는 광주 시민 여러분,지금 계엄군이 쳐들어 오고 있습니다.
                   <br />
-                  다.사랑하는 우리의 형제 자매들이 계엄군의 총칼에 죽어가고{' '}
-                  <br />
+                  사랑하는 우리의 형제 자매들이 계엄군의 총칼에 죽어가고 <br />
                   있습니다.우리 모두 계엄군과 끝까지 싸웁시다.우리는 끝까지{' '}
                   <br />
                   광주를 사수할 것입니다. 여러분 우리를 잊지 말아주십시오.{' '}
                   <br />
-                  우리는 최후까지 싸울 것입니다.
+                  우리는 최후까지 싸울 것입니다."
                 </div>
                 <div className={styles.fontBoxInner2}>
                   - 애절한 목소리가 정적을 가르고 울려퍼졌다.
@@ -388,7 +393,9 @@ function Story() {
                   있었습니다.
                 </span>
               </div>
-              <button className={styles.lastButton}>나는 그때 어떻게 행동했을까?</button>
+              <button onClick={locationMoment} className={styles.lastButton}>
+                나는 그때 어떻게 행동했을까?
+              </button>
             </div>
           </div>
         </div>

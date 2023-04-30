@@ -22,7 +22,13 @@ function Navbar() {
               <Link to="/quiz">
                 <li>퀴즈</li>
               </Link>
+<<<<<<< HEAD
               <li>캐릭터 유형검사</li>
+=======
+              <Link to="/moment">
+                <li>캐릭터 유형검사</li>
+              </Link>
+>>>>>>> 5b47a4600dccac9433f4b83f915672e0409c44fb
             </ul>
           </div>
         </div>
@@ -30,7 +36,9 @@ function Navbar() {
           <div className={styles.messageCircle}>
             <TbMessageCircle2Filled />
           </div>
-          <b className={styles.complain}>문의하기</b>
+          <a href="https://open.kakao.com/o/sSYV7xhf">
+            <b className={styles.complain}>문의하기</b>
+          </a>
         </div>
       </div>
     </nav>
