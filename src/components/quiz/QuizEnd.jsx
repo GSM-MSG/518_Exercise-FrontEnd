@@ -6,8 +6,8 @@ function QuizEnd({setPage}) {
   const onFirst = () => {
     setPage(1);
   };
-  const score = localStorage.getItem("score");
-  console.log(score);
+  const score = Number(localStorage.getItem("score"));
+  
   return (
     <div className={styles.endContainer}>
       <h2 className={styles.celebration}>

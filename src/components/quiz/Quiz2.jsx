@@ -20,7 +20,6 @@ function Quiz2({page, setPage}) {
     if(score === 0) {
       localStorage.setItem("score", 1);
     } else if(score === 1) {
-      console.log(2, score);
       localStorage.setItem("score", 2);
     }
   };

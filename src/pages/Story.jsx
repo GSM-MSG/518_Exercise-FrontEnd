@@ -44,7 +44,7 @@ import Img22 from '../images/image 22.png';
 import {motion} from 'framer-motion';
 
 function locationMoment() {
-  window.location.href = '/moment';
+  window.location.href = '/quiz';
 }
 
 function Story() {
@@ -394,7 +394,7 @@ function Story() {
                 </span>
               </div>
               <button onClick={locationMoment} className={styles.lastButton}>
-                나는 그때 어떻게 행동했을까?
+                퀴즈 풀러 가기
               </button>
             </div>
           </div>
