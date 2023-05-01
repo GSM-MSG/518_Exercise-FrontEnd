@@ -5,7 +5,6 @@ import SubExplain from '../components/SubExplain';
 import SubDescription from '../components/SubDescription';
 
 import Storybg from '../images/story_bg.png';
-import Vector from '../images/vector.png';
 import Title from '../images/title_img.png';
 import Gun from '../images/gun.png';
 import RunPerson from '../images/run_person.png';
@@ -56,9 +55,6 @@ function Story() {
       </div>
       <div className={styles.storyDivOut}>
         <div className={styles.storyDiv}>
-          <div className={styles.vector}>
-            <img className={styles.vectorImg} src={Vector} alt="그래프바" />
-          </div>
           <div className={styles.storyContainer}>
             <div className={styles.descriptionBlack}>
               <div className={styles.title}>

@@ -42,21 +42,6 @@
   width: 100%;
 }
 
-.vector {
-  position: relative;
-  margin-left: 58px;
-  margin-top: 0;
-  z-index: 1;
-  height: 100%;
-  width: auto;
-}
-
-.vectorImg {
-  position: absolute;
-  height: auto;
-  width: auto;
-}
-
 .storyBg {
   width: 100%;
   max-width: 100%;
