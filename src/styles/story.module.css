@@ -47,6 +47,12 @@
   margin-top: 0;
   z-index: 1;
   position: absolute;
+  height: 100%;
+}
+
+.vectorImg {
+  height: 100%;
+  width: auto;
 }
 
 .storyBg {

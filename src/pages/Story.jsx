@@ -57,7 +57,7 @@ function Story() {
       <div className={styles.storyDivOut}>
         <div className={styles.storyDiv}>
           <div className={styles.vector}>
-            <img src={Vector} alt="그래프바" />
+            <img className={styles.vectorImg} src={Vector} alt="그래프바" />
           </div>
           <div className={styles.storyContainer}>
             <div className={styles.descriptionBlack}>
