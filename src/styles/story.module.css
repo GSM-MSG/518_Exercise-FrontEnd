@@ -14,11 +14,11 @@
 
 .explainProps div:last-child {
   margin-top: 3%;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .SubExplain {
-  font-size: 15px;
+  font-size: 0.9rem;
   color: #8f8f8f;
 }
 
