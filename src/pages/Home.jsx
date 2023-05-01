@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 import Pine1 from '../images/Pine1.png';
 import Pine2 from '../images/Pine2.png';
 import Pine3 from '../images/Pine3.png';
-import Tank from '../images/Tank.png';
+import Tank from '../images/tank.png';
 import home2Title from '../images/home2Title.png';
 import home2ImgBundle from '../images/home2ImgBundle.png';
 import Weed from '../images/Weed.png';
