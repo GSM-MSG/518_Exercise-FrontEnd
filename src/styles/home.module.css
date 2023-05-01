@@ -32,7 +32,7 @@ body {
 
 .home .home1 .repeatText {
   position: absolute;
-  top: 13%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: var(--font-googleGravitasOne);
@@ -43,7 +43,7 @@ body {
 
 .home .home1 .homeTitle {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: showTitle 1s;
@@ -51,7 +51,7 @@ body {
 
 .home .home1 .homeTitle2 {
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: showTitle 1s;
@@ -60,7 +60,7 @@ body {
 .home .home1 .remembranceText {
   width: 100vw;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   height: 7vh;
   transform: translate(-50%, -50%);
@@ -98,7 +98,7 @@ body {
 
 .home .home1 .repeatText2 {
   position: absolute;
-  top: 86%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: var(--font-googleGravitasOne);
@@ -439,14 +439,14 @@ body {
 @keyframes showLeft {
   from {
     position: absolute;
-    top: 13%;
+    top: 15%;
     left: 200%;
     transform: translate(-50%, -50%);
   }
 
   to {
     position: absolute;
-    top: 13%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -455,14 +455,14 @@ body {
 @keyframes showRight {
   from {
     position: absolute;
-    top: 86%;
+    top: 90%;
     left: -200%;
     transform: translate(-50%, -50%);
   }
 
   to {
     position: absolute;
-    top: 86%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
