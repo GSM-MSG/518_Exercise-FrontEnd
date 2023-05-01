@@ -439,14 +439,14 @@ body {
 @keyframes showLeft {
   from {
     position: absolute;
-    top: 10%;
+    top: 13%;
     left: 200%;
     transform: translate(-50%, -50%);
   }
 
   to {
     position: absolute;
-    top: 10%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
