@@ -43,15 +43,18 @@
 }
 
 .vector {
+  position: relative;
   margin-left: 58px;
   margin-top: 0;
   z-index: 1;
-  position: absolute;
+  height: auto;
+  width: auto;
 }
 
 .vectorImg {
-  max-width: 100%;
+  position: absolute;
   height: auto;
+  width: auto;
 }
 
 .storyBg {
