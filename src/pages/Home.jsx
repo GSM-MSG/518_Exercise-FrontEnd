@@ -111,7 +111,7 @@ function Home() {
           것이다."
         </p>
         <p className={styles.pharseEn}>
-          "We are defeated today, but tomorrow's history will make usI will make
+          "We are defeated today, but tomorrow's history will make us will make
           you a winner."
         </p>
         <p className={styles.narration}>

@@ -15,7 +15,7 @@ function Quiz() {
         {id: 7},
     ];
 
-    const [limit, setLimit] = useState(1);
+    const [limit] = useState(1);
     const [page, setPage] = useState(1);
     const offset = (page - 1) * limit;
 

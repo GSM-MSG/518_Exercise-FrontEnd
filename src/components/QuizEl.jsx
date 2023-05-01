@@ -1,6 +1,5 @@
 import React from 'react';
 import { useRef } from 'react';
-import { useState } from 'react';
 import styles from "../styles/quiz.module.css";
 import Quiz1 from './quiz/Quiz1';
 import Quiz2 from './quiz/Quiz2';

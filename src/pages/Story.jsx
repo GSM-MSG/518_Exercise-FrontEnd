@@ -299,7 +299,7 @@ function Story() {
                 </div>
               </div>
               <div className={styles.imgBox5}>
-                <span>- 병원에 피가 부족해 헌혈하는 사람들</span>
+                <span>- 나눠먹을 밥을 하는 사람들</span>
                 <img style={{marginTop: '8px'}} src={Img17} alt="image17" />
                 <img
                   className={styles.pinetree2}
