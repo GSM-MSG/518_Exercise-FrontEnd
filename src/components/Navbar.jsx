@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/navbar.module.css';
 import {TbMessageCircle2Filled} from 'react-icons/tb';
-import Logo from '../images/Logo.png';
+import Logo from '../images/logo.png';
 import {Link} from 'react-router-dom';
 
 function Navbar() {
