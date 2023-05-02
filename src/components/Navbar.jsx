@@ -25,14 +25,14 @@ function Navbar() {
             </ul>
           </div>
         </div>
-        <div className={styles.navBox2}>
-          <div className={styles.messageCircle}>
-            <TbMessageCircle2Filled />
-          </div>
-          <a href="https://open.kakao.com/o/sSYV7xhf">
+        <a href="https://open.kakao.com/o/sSYV7xhf">
+          <div className={styles.navBox2}>
+            <div className={styles.messageCircle}>
+              <TbMessageCircle2Filled />
+            </div>
             <b className={styles.complain}>문의하기</b>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </nav>
   );
