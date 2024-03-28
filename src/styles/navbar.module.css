@@ -18,6 +18,8 @@ a {
   justify-content: center;
   background-color: #282828;
   font-family: 'Pretendard-Regular';
+  position: fixed;
+  z-index: 99;
 }
 
 .navbar .navInBox {
@@ -89,14 +91,14 @@ a {
 }
 
 .navbar .navBox2 .messageCircle svg {
-    position: absolute;
-    color: #282828;
-    font-size: 14px;
+  position: absolute;
+  color: #282828;
+  font-size: 14px;
 }
 
 .navbar .navBox2 .complain {
-    color: #c8c8c8;
-    font-size: 12px;
+  color: #c8c8c8;
+  font-size: 12px;
 }
 
 .navbar .navBox2:hover .messageCircle {
