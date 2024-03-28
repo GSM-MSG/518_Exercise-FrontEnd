@@ -40,6 +40,7 @@ body {
   color: #ffffff;
   animation: showLeft 1s;
   cursor: default;
+  white-space: nowrap;
 }
 
 .home .home1 .homeTitle {
@@ -84,6 +85,7 @@ body {
 .home .home1 .remembranceText .inRemembranceText {
   color: #ffffff;
   margin: 0;
+  white-space: nowrap;
 }
 
 .home .home1 .remembranceText .inRemembrance .whiteBox1 {
@@ -109,6 +111,7 @@ body {
   z-index: 3;
   animation: showRight 1s;
   cursor: default;
+  white-space: nowrap;
 }
 
 .home .home1 .home1FootBg {
@@ -403,15 +406,6 @@ body {
   left: 0;
 }
 
-.home .home3 .repeatText3 {
-  position: absolute;
-  top: 94%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: var(--font-googleGravitasOne);
-  width: 250%;
-}
-
 .home .homeFooter {
   position: relative;
   bottom: 0;
@@ -443,6 +437,10 @@ body {
   color: #ffffff;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.home .homeFooter .contactList li a {
+  color: #a4a4a4;
 }
 
 @keyframes showLeft {
