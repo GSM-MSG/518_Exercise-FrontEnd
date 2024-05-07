@@ -1,0 +1,288 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quiz {
+  background-color: #1f1f1f;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Pretendard-Regular';
+}
+
+.quiz .quizBox {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 26vw;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #303030;
+}
+
+.quiz .quizBox .startContainer {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+}
+
+.quiz .quizBox .startContainer .quizBtn {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  width: 100%;
+  height: 8vh;
+  background: none;
+  color: #e4e4e4;
+  font-weight: bold;
+  padding: 0;
+  cursor: pointer;
+  border: 1px solid #e4e4e4;
+}
+
+.quiz .quizBox .startContainer .startTexts {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quiz .quizBox .startContainer .quizLogo {
+  width: 7vw;
+  height: 10vh;
+}
+
+.quiz .quizBox .startContainer .startTitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.quiz .quizBox .startContainer .startQuestion {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  width: 30vw;
+}
+
+.quiz .quizBox .quizContainer {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+}
+
+.quiz .quizBox .quizContainer .division {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.quiz .quizBox .quizContainer .divisionTrue {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #598ae9;
+}
+
+.quiz .quizBox .quizContainer .divisionFalse {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #e95959;
+}
+
+.quiz .quizBox .quizContainer .notifyTrue {
+  position: absolute;
+  top: 1.2%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: #598ae9;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.quiz .quizBox .quizContainer .notifyFalse {
+  position: absolute;
+  top: 1.2%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: #e95959;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.quiz .quizBox .quizContainer .quizLine {
+  border: 1px solid #989898;
+  width: 100%;
+}
+
+.quiz .quizBox .quizContainer .question {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.quiz .quizBox .quizContainer .faintQuestion {
+  font-size: 1rem;
+  color: #989898;
+}
+
+.quiz .quizBox .quizContainer .quizInput {
+  width: 95%;
+  height: 6vh;
+  padding-left: 16px;
+  background: none;
+  border: 1px solid #989898;
+  outline: none;
+  color: #ffffff;
+  margin: 40px 0 10px 0;
+}
+
+.quiz .quizBox .quizContainer .oxContainer {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quiz .quizBox .quizContainer .oxContainer img {
+  cursor: pointer;
+}
+
+.quiz .quizBox .quizContainer .oxContainer img:first-child {
+  margin-right: 20px;
+}
+
+.quiz .quizBox .quizContainer .multipleBox {
+  position: absolute;
+  top: 4%;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.quiz .quizBox .quizContainer .multipleBox button {
+  width: 100%;
+  height: 7vh;
+  background: none;
+  border: 1px solid #989898;
+  color: #989898;
+  margin-bottom: 14px;
+  text-align: left;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.quiz .quizBox .quizContainer .commentBox {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.quiz .quizBox .quizContainer .oxCommentBox {
+  position: absolute;
+  top: 64%;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.quiz .quizBox .quizContainer .multipleCommentBox {
+  position: absolute;
+  top: 70%;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.quiz .quizBox .quizContainer .commentary {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+  width: 20%;
+}
+
+.quiz .quizBox .quizContainer .description {
+  margin-left: 10px;
+  margin-top: 14px;
+  color: #c0c0c0;
+  margin: 0;
+}
+
+.quiz .quizBox .quizContainer .quizBtn {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  width: 100%;
+  height: 8vh;
+  background: none;
+  color: #e4e4e4;
+  font-weight: bold;
+  padding: 0;
+  cursor: pointer;
+  border: 1px solid #e4e4e4;
+}
+
+.quiz .quizBox .endContainer {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+}
+
+.quiz .quizBox .endContainer .celebration {
+  position: absolute;
+  width: 100%;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #ffffff;
+}
+
+.quiz .quizBox .endContainer .endBtnBox {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-content: space-between;
+}
+
+.quiz .quizBox .endContainer .endBtnBox .reStartBtn {
+  width: 100%;
+  height: 8vh;
+  background: none;
+  color: #e4e4e4;
+  font-weight: bold;
+  padding: 0;
+  cursor: pointer;
+  border: 1px solid #e4e4e4;
+}
+
+.quiz .quizBox .endContainer .endBtnBox .homeBtn {
+  width: 100%;
+  height: 8vh;
+  background-color: #e4e4e4;
+  color: #191919;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0;
+  cursor: pointer;
+  border: 1px solid #e4e4e4;
+  margin-top: 20px;
+}

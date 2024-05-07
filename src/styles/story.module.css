@@ -1,0 +1,319 @@
+/* component */
+.display-enter {
+  white-space: pre-line;
+  white-space: pre-wrap;
+}
+
+.explainProps title {
+  font-family: 'DX';
+}
+
+.explainProps div:first-child {
+  font-size: 24px;
+}
+
+.explainProps div:last-child {
+  margin-top: 3%;
+  font-size: 1.05em;
+}
+
+.SubExplain {
+  font-size: .9em;
+  color: #8f8f8f;
+}
+
+/* page */
+.b {
+  font-size: 15px;
+  color: #8f8f8f;
+}
+
+.storyDiv {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #1f1f1f;
+  margin: auto;
+}
+
+.storyBox {
+  background-color: #1f1f1f;
+  width: 100%;
+}
+
+.storyBg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.storyBg img {
+  width: 100%;
+}
+
+.storyContainer {
+  margin-top: 4.2%;
+  margin-left: 148px;
+}
+
+.propsInput {
+  display: flex;
+}
+
+.description1 {
+  margin-top: 8.5%;
+}
+
+.explainInner {
+  margin-top: 48px;
+}
+
+.gunInput {
+  margin-top: 90px;
+}
+
+.description2 {
+  margin-top: 16%;
+}
+
+.imgBox {
+  display: flex;
+}
+
+.imgBox img:first-child {
+  filter: grayscale(1);
+  margin-right: 8px;
+  margin-top: 32px;
+}
+
+.imgBox img:last-child {
+  margin-top: 33px;
+  height: 471px;
+}
+
+.description3 {
+  margin-top: 13%;
+  background-image: url(../images/seoul_bg.png);
+  height: 762.64px;
+}
+
+.description4 {
+  margin-top: 9%;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.runPerson {
+  margin-top: 148px;
+  position: absolute;
+  z-index: 1;
+}
+
+.korea {
+  margin-left: 48px;
+}
+
+.description5Out {
+  background-color: #282828;
+  padding-bottom: 80px;
+}
+
+.description5 {
+  margin-top: 12%;
+}
+
+.description6 {
+  margin-top: 5%;
+}
+
+.blood1 {
+  margin-top: -100px;
+  position: absolute;
+  margin-left: 20px;
+}
+
+.blood2 {
+  position: absolute;
+  margin-left: 850px;
+  margin-top: -160px;
+}
+
+.description7Out {
+  padding-bottom: 7%;
+  background-image: url(../images/bus_bg.png);
+  background-repeat: no-repeat;
+  background-color: #303030;
+}
+
+.description7 {
+  margin-top: 8%;
+  margin-bottom: 32px;
+}
+
+.blood3 {
+  position: absolute;
+  margin-top: 46px;
+  margin-left: 17px;
+}
+
+.blood4 {
+  margin-top: 80px;
+  margin-left: 500px;
+}
+
+.description8Out {
+  background-color: #fff;
+}
+
+.description8 {
+  margin-top: -14%;
+}
+
+.imgBox3 {
+  background-image: url(../images/person_bg.png);
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 14%;
+}
+
+.imgBox3Inner {
+  display: flex;
+  font-size: 18px;
+  color: #1f1f1f;
+}
+
+.img13Box {
+  margin-right: 108px;
+  width: 352px;
+}
+
+.imgPersonArmy {
+  margin-top: 5%;
+}
+
+.description9Out {
+  background-color: #eaeaea;
+}
+
+.description9 {
+  margin-top: 11%;
+}
+
+.pinetree1 {
+  position: absolute;
+}
+
+.imgBox4 {
+  color: #797979;
+  font-size: 16px;
+  margin-top: 78px;
+  display: flex;
+}
+
+.img15 {
+  margin-right: -95px;
+}
+
+.imgBox5 {
+  margin-top: 64px;
+  color: #797979;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 442px;
+  margin-bottom: 8%;
+}
+
+.pinetree2 {
+  position: absolute;
+  margin-left: 494px;
+  margin-top: 4.4%;
+}
+
+.description10 {
+  display: flex;
+  margin-top: 115px;
+}
+
+.img18 {
+  margin-top: -110px;
+  margin-left: 130px;
+}
+
+.helecopter {
+  width: 664px;
+  margin-top: 25px;
+}
+
+.fontBox {
+  position: absolute;
+  color: #fff;
+  margin-top: -300px;
+  font-size: 18px;
+}
+
+.fontBoxInner {
+  margin-top: 64px;
+  font-size: 24px;
+}
+
+.fontBoxInner2 {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #7e7e7e;
+}
+
+.fontBox2 {
+  margin-top: 104px;
+  color: #bebebe;
+  font-size: 18px;
+}
+
+.frostbite {
+  position: absolute;
+  margin-left: 435px;
+  margin-top: -355px;
+}
+
+.imgBox6 {
+  margin-top: 64px;
+}
+
+.lastMentBox {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 10%;
+}
+
+.lastMiddleComment {
+  display: flex;
+  font-size: 40px;
+  margin-top: 32px;
+}
+
+.lastComment {
+  margin-top: 48px;
+  font-size: 18px;
+}
+
+.lastButton {
+  margin-top: 64px;
+  margin-bottom: 146px;
+  padding: 12px 24px;
+  cursor: pointer;
+  background: none;
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid #fff;
+  transition: all 0.1s ease-in;
+}
+
+.lastButton:hover {
+  background-color: #fff;
+  color: #000;
+}
