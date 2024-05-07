@@ -14,7 +14,7 @@ function Quiz1({page, setPage}) {
       setAnswer(true);
       setWranswer(false);
       setCount(count + 1);
-      localStorage.setItem("score", 1);
+      localStorage.setItem('score', 1);
       if (count === 1) {
         setPage(page + 1);
       }
@@ -65,8 +65,8 @@ function Quiz1({page, setPage}) {
             <p className={styles.commentary}>해설: </p>
             <p className={styles.description}>
               1979년 12월 12일 군부 내 사조직 <b>하나회</b>를 중심으로 한 신군부
-              세력이 군사 반란을 일으켜
-              <br /> 군사권을 장악하였다. 이를 ‘12.12 사태’라고 한다.
+              세력이 군사 반란을 일으켜 군사권을 장악하였다. 이를 ‘12.12
+              사태’라고 한다.
             </p>
           </div>
         )}
