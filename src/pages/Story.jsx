@@ -375,7 +375,7 @@ function Story() {
             <div>
               <img src={WhiteFlower} alt="꽃사진" /> <br />
               <span>
-                2023.05.18. <br />
+                2024.05.18. <br />
                 이제 우리는..
               </span>
               <span className={styles.lastMiddleComment}>
