@@ -375,7 +375,7 @@ function Story() {
             <div>
               <img src={WhiteFlower} alt="꽃사진" /> <br />
               <span>
-                2023.05.18 <br />
+                2023.05.18. <br />
                 이제 우리는..
               </span>
               <span className={styles.lastMiddleComment}>
@@ -383,9 +383,9 @@ function Story() {
               </span>
               <div className={styles.lastComment}>
                 <span>
-                  비록 계엄군에게 광주는 빼았기고 많은 사람들이 목숨을 잃었지만
+                  비록 계엄군에게 광주는 빼앗기고 많은 사람들이 목숨을 잃었지만
                   그분들의 의지는 <br />
-                  꺽이지 않고 이어져 저희들이 지금 이자리에서 자유롭게 살아갈 수
+                  꺾이지 않고 이어져 저희들이 지금 이자리에서 자유롭게 살아갈 수
                   있었습니다.
                 </span>
               </div>

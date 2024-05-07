@@ -42,13 +42,13 @@ function Home() {
         <div className={styles.remembranceText}>
           <div className={styles.inRemembrance}>
             <div className={styles.whiteBox1}></div>
-            <p className={styles.inRemembranceText}>43주년 기념</p>
+            <p className={styles.inRemembranceText}>44주년 기념</p>
             <div className={styles.whiteBox1}></div>
           </div>
           <div className={styles.whiteBox2}></div>
           <div className={styles.inRemembrance}>
             <div className={styles.whiteBox1}></div>
-            <p className={styles.inRemembranceText}>43주년 기념</p>
+            <p className={styles.inRemembranceText}>44주년 기념</p>
             <div className={styles.whiteBox1}></div>
           </div>
         </div>

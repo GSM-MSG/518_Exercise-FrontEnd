@@ -61,12 +61,12 @@ function Quiz5({page, setPage}) {
   return (
     <div className={styles.quizContainer}>
       {!choice1 && !choice2 && !choice3 && !choice4 && (
-        <h2 className={styles.division}>5.객관식 문제</h2>
+        <h2 className={styles.division}>5. 객관식 문제</h2>
       )}
 
-      {choice2 && <h2 className={styles.divisionTrue}>5.객관식 문제</h2>}
+      {choice2 && <h2 className={styles.divisionTrue}>5. 객관식 문제</h2>}
       {(choice1 || choice3 || choice4) && (
-        <h2 className={styles.divisionFalse}>5.객관식 문제</h2>
+        <h2 className={styles.divisionFalse}>5. 객관식 문제</h2>
       )}
 
       {choice2 && (
