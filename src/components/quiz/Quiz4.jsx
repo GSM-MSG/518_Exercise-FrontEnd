@@ -55,12 +55,12 @@ function Quiz4({page, setPage}) {
   return (
     <div className={styles.quizContainer}>
       {!choice1 && !choice2 && !choice3 && !choice4 && (
-        <h2 className={styles.division}>4. 객관식 문제</h2>
+        <h2 className={styles.division}>4.객관식 문제</h2>
       )}
-      {choice3 && <h2 className={styles.divisionTrue}>4. 객관식 문제</h2>}
+      {choice3 && <h2 className={styles.divisionTrue}>4.객관식 문제</h2>}
       {(choice1 ||
         choice2 ||
-        choice4 )&& <h2 className={styles.divisionFalse}>4. 객관식 문제</h2>}
+        choice4 )&& <h2 className={styles.divisionFalse}>4.객관식 문제</h2>}
 
       {choice3 && (
         <p style={{left: '30%'}} className={styles.notifyTrue}>
@@ -78,7 +78,7 @@ function Quiz4({page, setPage}) {
       {!choice1 && !choice2 && !choice3 && !choice4 && (
         <p className={styles.question}>
           1980년 5월 18일. 계엄령 확대에 반발한 전남대학교 학생들의 시위를
-          공수부대원들이 무자비하게 진압하였다.
+          공수부대원들이 무자비하게 진압하였다. 이 때 실시한 작전의 명칭은? 
         </p>
       )}
       {(choice1 ||
@@ -87,7 +87,7 @@ function Quiz4({page, setPage}) {
         choice4) && (
           <p className={styles.faintQuestion}>
             1980년 5월 18일. 계엄령 확대에 반발한 전남대학교 학생들의 시위를
-            공수부대원들이 무자비하게 진압하였다. 이 때 실시한 작전의 명칭은?
+            공수부대원들이 무자비하게 진압하였다. 이 때 실시한 작전의 명칭은? 
           </p>
         )}
       {!choice1 && !choice2 && !choice3 && !choice4 && (

@@ -11,20 +11,20 @@ function Quiz3({page, setPage}) {
   const [count, setCount] = useState(0);
   const [answer, setAnswer] = useState(false);
   const [wranswer, setWranswer] = useState(false);
-  const score = Number(localStorage.getItem("score"));
+  const score = Number(localStorage.getItem('score'));
 
   const successClicked = () => {
     setAnswer(true);
     setWranswer(false);
     setCount(count + 1);
-    if(score === 0) {
-        localStorage.setItem("score", 1);
-      } else if(score === 1) {
-        localStorage.setItem("score", 2);
-      } else if(score === 2) {
-        localStorage.setItem("score", 3);
-      }
-    };
+    if (score === 0) {
+      localStorage.setItem('score', 1);
+    } else if (score === 1) {
+      localStorage.setItem('score', 2);
+    } else if (score === 2) {
+      localStorage.setItem('score', 3);
+    }
+  };
 
   const failClicked = () => {
     setWranswer(true);
@@ -93,8 +93,7 @@ function Quiz3({page, setPage}) {
           <h2 className={styles.commentary}>해설: </h2>
           <p className={styles.description}>
             O / 1980년 5월 18일. 계엄령 확대에 반발한 전남대학교 학생들의 시위를
-            공수부대원들이 무자비하게
-            <br /> 진압하였다.{' '}
+            공수부대원들이 무자비하게 진압하였다.
           </p>
         </div>
       )}
