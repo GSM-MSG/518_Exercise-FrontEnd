@@ -320,7 +320,6 @@
 
 .imgDescription {
   color: #666;
-  margin-left: 1000px;
-  position: absolute;
-  top: 4320px;
+  margin-left: 1010px;
+  margin-top: 20px;
 }

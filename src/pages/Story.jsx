@@ -159,6 +159,9 @@ function Story() {
                 />
               </div>
             </div>
+            <span className={styles.imgDescription}>
+              ※ 5.17 전남대학교 시위 사진
+            </span>
             <div style={{backgroundColor: '#1f1f1f'}}>
               <img
                 style={{marginRight: '5.5px', marginLeft: '0'}}
@@ -186,9 +189,6 @@ function Story() {
                 <img src={Img7} alt="image7" />
               </div>
             </div>
-            <span className={styles.imgDescription}>
-              ※ 5.17 전남대학교 시위 사진
-            </span>
             <div className={styles.storyContainer}>
               <div className={styles.description6}>
                 <Description
