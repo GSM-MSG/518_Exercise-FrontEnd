@@ -317,3 +317,10 @@
   background-color: #fff;
   color: #000;
 }
+
+.imgDescription {
+  color: #666;
+  margin-left: 1000px;
+  position: absolute;
+  top: 4320px;
+}

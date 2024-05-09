@@ -58,7 +58,7 @@ function Story() {
           <div className={styles.storyContainer}>
             <div className={styles.descriptionBlack}>
               <div className={styles.title}>
-                <img src={Title} alt="5.18 열흘간의 항쟁" />
+                <img src={Title} alt="5·18 열흘간의 항쟁" />
               </div>
               <div className={styles.propsInput}>
                 <div className={styles.description1}>
@@ -153,7 +153,7 @@ function Story() {
                   color1="#fff"
                   color2="#c8c8c8"
                   title1="1980.05.18"
-                  title2="전남대 학생과 공수부대 최초 충돌"
+                  title2="전남대 학생과 공수부대 충돌"
                   explain1="계엄령이 확대됐다는 소식이 보도됐다. 광주 전남대학교 학생들은 신군부의 계엄령 확대와 휴교령에 반대하는 시위를 전개하였다. "
                   explain2="신군부는 공수 부대원을 투입하여 교문 출입을 통제하고, 시위를 벌이던 전남대 학생들을 무자비하게 진압하였다."
                 />
@@ -172,6 +172,7 @@ function Story() {
               />
               <img src={Img5} alt="image5" />
             </div>
+
             <div
               style={{
                 display: 'flex',
@@ -185,6 +186,9 @@ function Story() {
                 <img src={Img7} alt="image7" />
               </div>
             </div>
+            <span className={styles.imgDescription}>
+              ※ 5.17 전남대학교 시위 사진
+            </span>
             <div className={styles.storyContainer}>
               <div className={styles.description6}>
                 <Description
@@ -348,7 +352,7 @@ function Story() {
                 전투병력 뿐만 아니라 탱크와 헬기까지 동원했다. <br />
                 시민군은 전남도청에서 최후의 항전을 벌였지만, 모두 진압되었다.
                 이 와중에 16명이 사망했고, 200명이 체포되었다. <br />
-                5.18 민주화 운동은 이렇게 많은 시민들의 희생 속에서 끝이 났다..
+                5·18 민주화 운동은 이렇게 많은 시민들의 희생 속에서 끝이 났다..
               </div>
               <img className={styles.frostbite} src={Frostbite} alt="동상" />
               <div className={styles.imgBox6}>

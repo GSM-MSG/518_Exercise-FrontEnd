@@ -9,8 +9,8 @@ function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.navInBox}>
         <div className={styles.navBox1}>
-          <img src={Logo} alt="5.18 로고" className={styles.logo} />
-          <b className={styles.title}> ㆍ 5.18 그날의 광주</b>
+          <img src={Logo} alt="5·18 로고" className={styles.logo} />
+          <b className={styles.title}> ㆍ 5·18 그날의 광주</b>
           <div>
             <ul className={styles.menuList}>
               <Link to="/">
